@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="parent-pom" />
+        <module name="appbientMicroserviceProyecto" />
+        <module name="appbient-microservice-proyectos" />
+        <module name="Appbient_microservice_Usuarios" />
+        <module name="microservice" />
+        <module name="Appbient-Microservices" />
+        <module name="Appbient_microservice_Foro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="appbient-microservice-evento" target="1.8" />
+      <module name="appbient-microservice-proyecto" target="1.8" />
+      <module name="appbient_microservice_foro" target="1.8" />
+      <module name="appbient_microservice_usuarios" target="1.8" />
+      <module name="appbientmicroserviceevento" target="1.8" />
+      <module name="discovery" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Appbient-Microservices" options="-parameters" />
+      <module name="Appbient_microservice_Foro" options="-parameters" />
+      <module name="Appbient_microservice_Usuarios" options="-parameters" />
+      <module name="appbient-microservice-evento" options="-parameters" />
+      <module name="appbient-microservice-proyecto" options="-parameters" />
+      <module name="appbient-microservice-proyectos" options="-parameters" />
+      <module name="appbientMicroserviceProyecto" options="-parameters" />
+      <module name="appbient_microservice_foro" options="-parameters" />
+      <module name="appbient_microservice_usuarios" options="-parameters" />
+      <module name="appbientmicroserviceevento" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="microservice" options="-parameters" />
+      <module name="parent-pom" options="-parameters" />
+    </option>
+  </component>
+</project>
